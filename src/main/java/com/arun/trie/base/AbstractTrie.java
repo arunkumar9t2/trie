@@ -19,10 +19,14 @@ package com.arun.trie.base;
 import java.util.List;
 
 /**
- * Created by Arunkumar on 01/12/16.
+ * An ordered data structure that can be used to store key-value pairs and provide fast searching
+ * of the order O(K) where K is the length of the key.
+ * <p>
+ * The key in this implementation is always of the type {@link String} and does not allow duplicates,
+ * in the event of having a duplicate key, the value will be overwritten. All keys in the structure
+ * are case insensitive by default and converted to lower case internally.
  */
 public interface AbstractTrie<V> {
-
     char ROOT_KEY = ' ';
 
     void insert(String key, V value);

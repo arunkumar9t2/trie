@@ -18,9 +18,6 @@ package com.arun.trie.base;
 
 import java.util.Collection;
 
-/**
- * Created by Arunkumar on 01/12/16.
- */
 public interface TrieNode<V> {
 
     V getValue();
