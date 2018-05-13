@@ -5,7 +5,7 @@ A java implementation of the Prefix Trie data structure.
 Tries are map like ordered tree based data structures that provide fast searching of the order `O(k)` where `k` is the length of key. Read more about trie [here](https://en.wikipedia.org/wiki/Trie).
 
 # Motivation
-This was initially buitl to use in my Android app, **T9 App Launcher** to quickly search through list of installed applications and launch them.
+This was initially built to use in my Android app, **T9 App Launcher** to quickly search through list of installed applications and launch them.
 
 # Public APIs
 Currently there are 3 public implementations that can be chosen from.
